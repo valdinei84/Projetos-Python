@@ -1,0 +1,18 @@
+DDL - ALTERANDO UMA TABELA
+	ALTER TABLE fornecedor MODIFY COLUMN nome VARCHAR (70);
+DDL - DROP (esclue a tabela inteira)
+	DROP TABLE fornecedor;
+Restrições: UNIQUE (faz com que aquele campo seja única)
+	CREATE TABLE cliente(id INT, nome VARCHAR(100),
+	cpf VARCHAR(250)UNIQUE
+Restrições: NOT NULL (Deve ser digitado obrigatoriamente)
+	CREATE TABLE cliente (
+	id INT NOT NULL,
+	nome VARCHAR(100), cpf VARCHAR(11)UNIQUE);
+		
+		TIPOS DE REALCIONAMENTOS
+		CONSTRAINT: FOREIGN KEY
+	
+	
+
+
