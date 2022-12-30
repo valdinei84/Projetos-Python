@@ -40,4 +40,4 @@ conexao.commit() # A função “commit”, associada à variável “conexao”
                 # serve para efetivamente salvar as alterações realizadas no banco de dados. 
 conexao.close() # é chamada para fechar a conexão
 
-
+# teste de alteração
