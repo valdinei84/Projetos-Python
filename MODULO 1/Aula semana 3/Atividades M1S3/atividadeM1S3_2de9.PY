@@ -3,5 +3,5 @@ def contagem_decrescente(numero):
     print(numero)
     if numero > 0:
         contagem_decrescente(numero-1)
-numero = int(input())
+numero = int(input('Digite um numero: '))
 contagem_decrescente(numero)
